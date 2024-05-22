@@ -28,7 +28,7 @@ export default async function Home() {
   console.log("products", products)
   return (
     <div>
-       <button>fetch Latest products</button>
+       <button>Fetch Latest products</button>
       {products?.map((item:{title:String})=>{
         return <p>{item.title}</p>
       })}
